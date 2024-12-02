@@ -1,20 +1,6 @@
-# 🤖 Chat with PDF locally using Ollama + LangChain
+# Chat with PDF locally(Or using streamlit) using Ollama + LangChain
 
 A powerful local RAG (Retrieval Augmented Generation) application that lets you chat with your PDF documents using Ollama and LangChain. This project includes both a Jupyter notebook for experimentation and a Streamlit web interface for easy interaction.
-
-## 📺 Video Tutorial
-<a href="https://youtu.be/ztBJqzBU5kc">
-  <img src="https://img.youtube.com/vi/ztBJqzBU5kc/hqdefault.jpg" alt="Watch the video" width="100%">
-</a>
-
-## ✨ Features
-
-- 🔒 Fully local processing - no data leaves your machine
-- 📄 PDF processing with intelligent chunking
-- 🧠 Multi-query retrieval for better context understanding
-- 🎯 Advanced RAG implementation using LangChain
-- 🖥️ Clean Streamlit interface
-- 📓 Jupyter notebook for experimentation
 
 ## 🚀 Getting Started
 
@@ -30,8 +16,8 @@ A powerful local RAG (Retrieval Augmented Generation) application that lets you 
 
 2. **Clone Repository**
    ```bash
-   git clone https://github.com/tonykipkemboi/ollama_pdf_rag.git
-   cd ollama_pdf_rag
+   git clone https://github.com/TAHAKH7/TAHA_RAG_PDF_OLLAMA.git
+   cd TAHA_RAG_PDF_OLLAMA
    ```
 
 3. **Set Up Environment**
@@ -57,29 +43,6 @@ Then open your browser to `http://localhost:8501`
 jupyter notebook
 ```
 Open `updated_rag_notebook.ipynb` to experiment with the code
-
-## 💡 Usage Tips
-
-1. **Upload PDF**: Use the file uploader in the Streamlit interface or try the sample PDF
-2. **Select Model**: Choose from your locally available Ollama models
-3. **Ask Questions**: Start chatting with your PDF through the chat interface
-4. **Adjust Display**: Use the zoom slider to adjust PDF visibility
-5. **Clean Up**: Use the "Delete Collection" button when switching documents
-
-## 🤝 Contributing
-
-Feel free to:
-- Open issues for bugs or suggestions
-- Submit pull requests
-- Comment on the YouTube video for questions
-- Star the repository if you find it useful!
-
-## ⚠️ Troubleshooting
-
-- Ensure Ollama is running in the background
-- Check that required models are downloaded
-- Verify Python environment is activated
-- For Windows users, ensure WSL2 is properly configured if using Ollama
 
 ### Common Errors
 
@@ -114,15 +77,3 @@ If you're running on a CPU-only system:
    - Increase `chunk_overlap` for better context preservation
 
 Note: The application will run slower on CPU-only systems, but it will still work effectively.
-
-## 📝 License
-
-This project is open source and available under the MIT License.
-
----
-
-## ⭐️ Star History
-
-[![Star History Chart](https://api.star-history.com/svg?repos=tonykipkemboi/ollama_pdf_rag&type=Date)](https://star-history.com/#tonykipkemboi/ollama_pdf_rag&Date)
-
-Built with ❤️ by [Tony Kipkemboi](https://x.com/tonykipkemboi)
